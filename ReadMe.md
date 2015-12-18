@@ -1,0 +1,2 @@
+Find the level of node in binary tree.
+ suppose we are given any node in binary tree, we need to tell at which level the input node is residing. Let us take some of the random node for tree and we need to find the level at which the input node is residing.
