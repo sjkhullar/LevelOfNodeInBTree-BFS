@@ -3,8 +3,6 @@ package org.learn.Question;
 import java.util.LinkedList;
 import java.util.Queue;
 
-import org.learn.PrepareTree.Node;
-
 public class LevelOfNodeInBTree {
 	public static void  levelOfNodeInBTree(Node root, Node inputNode) {
 		if (root == null) {

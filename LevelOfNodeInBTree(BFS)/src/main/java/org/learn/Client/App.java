@@ -1,7 +1,7 @@
 package org.learn.Client;
 
-import org.learn.PrepareTree.Node;
 import org.learn.Question.LevelOfNodeInBTree;
+import org.learn.Question.Node;
 
 public class App 
 {
@@ -31,9 +31,9 @@ public class App
        C.right = G;
        //Connect level 2 and level 3
        F.left = H;
-       F.right = I;
+       F.right = I;       
        
-       
+       //Pass root node and input node
        LevelOfNodeInBTree.levelOfNodeInBTree(A,A);      
        LevelOfNodeInBTree.levelOfNodeInBTree(A,C);  
        LevelOfNodeInBTree.levelOfNodeInBTree(A,F);      
