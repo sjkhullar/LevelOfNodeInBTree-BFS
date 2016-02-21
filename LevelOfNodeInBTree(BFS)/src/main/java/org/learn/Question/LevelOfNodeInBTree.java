@@ -6,7 +6,7 @@ import java.util.Queue;
 public class LevelOfNodeInBTree {
 	public static void  levelOfNodeInBTree(Node root, Node inputNode) {
 		if (root == null) {
-			System.out.println("Queue is empty");
+			System.out.println("Tree is empty");
 			return ;
 		}
 		Queue<Node> queue = new LinkedList<Node>();
